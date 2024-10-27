@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82733e46-8815-421c-a683-9e910b2463e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/MarketPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Publicacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/aassa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Administrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/EstadoProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/EstadoProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Red.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectoFinal/model/Vendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727927655426</updated>
       <workItem from="1727927656428" duration="2475000" />
-      <workItem from="1729988825231" duration="2596000" />
+      <workItem from="1729988825231" duration="4425000" />
     </task>
     <servers />
   </component>

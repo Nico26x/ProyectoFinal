@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="148.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniciar Sesión">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtUsername" layoutX="148.0" layoutY="112.0" onAction="#ingresarUsuario" prefHeight="30.0" prefWidth="193.0" promptText="Username">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Icon content="PERSON" layoutX="98.0" layoutY="106.0" prefHeight="41.0" prefWidth="50.0" />
+      <Icon content="SECURITY" layoutX="112.0" layoutY="164.0" />
+      <PasswordField fx:id="txtPassword" layoutX="148.0" layoutY="164.0" prefHeight="26.0" prefWidth="193.0" promptText="Password">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </PasswordField>
+      <Button fx:id="btnIngresar" layoutX="220.0" layoutY="226.0" mnemonicParsing="false" text="Ingresar">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Text fontSmoothingType="LCD" layoutX="190.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿No tienes cuenta? " wrappingWidth="124.5986328125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnRegistrar" layoutX="211.0" layoutY="300.0" mnemonicParsing="false" text="Registrarse" />
+   </children>
+</Pane>

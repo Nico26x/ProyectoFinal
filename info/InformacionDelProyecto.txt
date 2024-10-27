@@ -1,0 +1,16 @@
+Patrones estructurales que implementaremos en nuestro proyecto:
+
+1. Facade:
+
+Por qué es importante: Dado que el sistema manejará varias operaciones (gestión de productos, vendedores, autenticación, estadísticas), un Facade simplificaría el acceso a todas estas funcionalidades a través de una interfaz central. Esto facilita el mantenimiento y la evolución del código, ya que encapsula la lógica compleja y oculta la implementación interna.
+Ventaja: La interfaz gráfica (JavaFX) podría interactuar con MarketplaceFacade, simplificando la lógica en las distintas pestañas y mejorando la organización del código.
+
+2. Proxy:
+
+Por qué es importante: El sistema requiere un control de acceso para las interacciones entre vendedores, limitando el acceso a los contactos autorizados. Con un Proxy, puedes gestionar permisos, asegurándote de que solo los vendedores aliados puedan ver y negociar productos.
+Ventaja: El Proxy para los vendedores o productos puede incluir una capa de autorización y, opcionalmente, de carga diferida para optimizar el rendimiento, cargando los datos completos solo cuando realmente se necesiten.
+
+3. Composite:
+
+Por qué es importante: Para organizar productos en categorías y subcategorías, el patrón Composite permite tratar tanto categorías como productos de forma uniforme. Esto será útil para mostrar o gestionar categorías de productos en la interfaz gráfica, y facilita la navegación o filtrado de productos por categorías.
+Ventaja: Proporciona una estructura jerárquica y flexible, permitiendo a los usuarios interactuar con categorías y productos de la misma manera. Esto hace que el sistema sea más intuitivo y escalable.

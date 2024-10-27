@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.proyectoFinal.viewController.LogInViewController">
    <children>
       <Text fontSmoothingType="LCD" layoutX="148.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniciar Sesión">
          <font>
@@ -27,16 +27,16 @@
             <Cursor fx:constant="TEXT" />
          </cursor>
       </PasswordField>
-      <Button fx:id="btnIngresar" layoutX="220.0" layoutY="226.0" mnemonicParsing="false" text="Ingresar">
+      <Button fx:id="btnIngresar" layoutX="208.0" layoutY="226.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" text="Ingresar">
          <cursor>
             <Cursor fx:constant="CLOSED_HAND" />
          </cursor>
       </Button>
-      <Text fontSmoothingType="LCD" layoutX="190.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿No tienes cuenta? " wrappingWidth="124.5986328125">
+      <Text fontSmoothingType="LCD" layoutX="187.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿No tienes cuenta? " wrappingWidth="113.5986328125">
          <font>
             <Font size="13.0" />
          </font>
       </Text>
-      <Button fx:id="btnRegistrar" layoutX="211.0" layoutY="300.0" mnemonicParsing="false" text="Registrarse" />
+      <Button fx:id="btnRegistrar" alignment="CENTER" layoutX="200.0" layoutY="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="91.0" text="Registrarse" />
    </children>
 </Pane>

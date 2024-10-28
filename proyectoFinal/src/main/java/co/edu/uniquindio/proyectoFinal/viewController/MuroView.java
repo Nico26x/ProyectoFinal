@@ -1,4 +1,4 @@
-package co.edu.uniquindio.proyectoFinal.ui;
+package co.edu.uniquindio.proyectoFinal.viewController;
 
 import javafx.scene.control.ListView;
 import javafx.scene.layout.VBox;

@@ -5,7 +5,7 @@ import co.edu.uniquindio.proyectoFinal.model.Usuario;
 
 public class PersonaBuilder {
 
-    protected String ;
+    protected String nombre;
     protected String apellidos;
     protected String cedula;
     protected String direccion;
